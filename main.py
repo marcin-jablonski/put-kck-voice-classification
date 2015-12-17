@@ -1,8 +1,8 @@
+import copy
 import numpy as np
 import scipy.io.wavfile
-from scipy.signal import kaiser, decimate
-import copy
 import sys
+from scipy.signal import kaiser, decimate
 
 
 def get_lead_frequency(signal, samples_count, audio_duration, no=0, mono=0):
